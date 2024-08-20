@@ -10,7 +10,5 @@ Multimodal modeling based on molecular structure and the relationship between th
 - machine_learning: SVM, RF, XGB modeling methods, input data are in ‘modeling_data.csv’ file.
 
 
-## Other links
-KNN-GNN is available at [GraphSAINT](https://github.com/GraphSAINT/GraphSAINT).
 
 
