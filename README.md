@@ -1,7 +1,7 @@
 # cluster_multimodal_models
 
 
-## explain of the file
+## Descriptions of the files
 - feature_preparation_VT: deleting the Mordred descriptors with standard deviations less than 0.10, input file is ‘mordred.csv’.
 - feature_preparation_pearson: deleting the Mordred descriptors with Pearson correlation coefficients greater than 0.90.  
 - louvain_cluster: identifying gene clusters by louvain algorithm, input file is ‘gene_network.txt’.  
