@@ -1,5 +1,6 @@
 # cluster_multimodal_models
-
+![Example Image](./TOC.png)
+Multimodal modeling based on molecular structure and the relationship between the drug and the disease onset, further explored by disease gene clustering combined with KNN-GCN (K-Nearest Neighbors-Graph Convolutional Network) classifying drugs, was applied to predict drug-induced intrahepatic cholestasis (DIIC) as one main aspect of hepatotoxicity.  
 
 ## Descriptions of the files
 - feature_preparation_VT: deleting the Mordred descriptors with standard deviations less than 0.10, input file is ‘mordred.csv’.
