@@ -1,18 +1,10 @@
 
 import numpy as np
 import pandas as pd
-from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.feature_selection import VarianceThreshold
 
 data = pd.read_csv('///.csv')
-
-for i in data.columns:
-    if np.any(pd.isnull(data[i])) == True:
-#        print(i)
-        data[i].fillna(data[i].mean(),inplace=True)
-#        print(data)
-
 
 X = data.iloc[:,1:-1]
 print(X)
@@ -26,7 +18,7 @@ X_var = sel.fit_transform(X)
 print(X_var.shape)
 
 file_path = r"///output.csv"
-X_var_y = pd.concat((pd.DataFrame(X_var),y),axis=1)
+X_var_y = pd.concat((pd.DataFrame(X_var),y_train),axis=1)
 X_var_y.to_csv(file_path,index=False)
 
 all_name = X.columns.values.tolist()

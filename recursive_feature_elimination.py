@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import cross_val_score
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('///.csv')
+data = pd.read_csv('///multimodal_characteristics.csv')
 X = data.iloc[:,1:-1]
 y = data['Class']
 
