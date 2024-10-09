@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-#-------------------------------t-SNE---------------------------
+#---------------------------------------------------t-SNE-----------------------------------------------
 # Concatenate the descriptors
 data1 = pd.read_csv('.../ECFP_train.csv')
 train_descriptors = data1.iloc[:,1:-1]
@@ -42,7 +42,7 @@ plt.legend(fontsize=15)
 plt.savefig('t-SNE.png',dpi=600)
 plt.show()
 
-#--------------------------UMAP-------------------------------
+#---------------------------------------------------UMAP-----------------------------------------------------------
 # Read each CSV file and extract descriptors
 data_paths = [
     '.../1_8_all.csv',
