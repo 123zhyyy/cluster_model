@@ -64,18 +64,7 @@ for path in data_paths:
     all_descriptors = pd.concat([all_descriptors, descriptors], axis=0)
 
 # Perform UMAP dimensionality reduction
-#embedding = umap.UMAP(n_neighbors=15,n_components=8,min_dist=0.4,metric='correlation',random_state=90).fit_transform(all_descriptors)
-embedding = umap.UMAP(a=None, angular_rp_forest=False, b=None,
-     force_approximation_algorithm=False, init='spectral', learning_rate=1.0,
-     local_connectivity=1.0, low_memory=False, metric='euclidean',
-     metric_kwds=None, min_dist=0.1, n_components=2, n_epochs=None,
-     n_neighbors=15, negative_sample_rate=5, output_metric='euclidean',
-     output_metric_kwds=None, random_state=42, repulsion_strength=1.0,
-     set_op_mix_ratio=1.0, spread=1.0, target_metric='categorical',
-     target_metric_kwds=None, target_n_neighbors=-1, target_weight=0.5,
-     transform_queue_size=4.0, transform_seed=42, unique=False, verbose=False).fit_transform(all_descriptors)
-#embedding = TSNE(n_components=2,perplexity=100, random_state=90).fit_transform(all_descriptors)#perplexity=50, 
-
+embedding = umap.UMAP(n_neighbors=15,n_components=2,min_dist=0.5,metric='correlation',random_state=90).fit_transform(all_descriptors)
 
 # Split embeddings into respective datasets
 embeddings = []
