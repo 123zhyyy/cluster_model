@@ -8,7 +8,7 @@ Multimodal modeling based on molecular structure and the relationship between th
 - preprocess_VT: deleting the Mordred descriptors with standard deviations less than 0.10, input file is ‘mordred.csv’.
 - preprocess_pearson: deleting the Mordred descriptors with Pearson correlation coefficients greater than 0.90.  
 - process_RFE: screening the multimodal characteristics with the best 10-fold accuracy, input file is ‘multimodal_features.csv’.  
-- machine_learning: SVM, RF, XGB modeling methods, input data are in ‘modeling_data.csv’ file.
+- machine_learning: SVM, RF, XGB modeling methods, input data are sheet A-C in ‘modeling_data.xlxs’ file.
 - preprocess_data: preprocess the files of compounds and clusters before KNN-GCN.
 - construct_graph: KNN constructs the topological network.
 - predict_results: GCN predicts the associations between compounds and clusters.
