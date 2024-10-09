@@ -13,7 +13,7 @@ Multimodal modeling based on molecular structure and the relationship between th
 - construct_graph: KNN constructs the topological network.
 - predict_results: GCN predicts the associations between compounds and clusters.
   
-# Note:
+## Note:
 Network proximity needs to run in a Python 2.7 environment.
 
 
