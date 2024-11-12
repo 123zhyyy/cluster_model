@@ -1,4 +1,4 @@
-# cluster_multi-dimensional_modeling_method
+# multi-dimensional modeling method
 ![Example Image](./TOC.png)
 Multi-dimensional modeling based on molecular structure and the relationship between the drug and the disease onset, further explored by disease gene clustering combined with KNN-GCN (K-Nearest Neighbors-Graph Convolutional Network) classifying drugs, was applied to predict drug-induced intrahepatic cholestasis (DIIC) as one main aspect of hepatotoxicity.  
 
