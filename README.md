@@ -1,6 +1,6 @@
-# cluster_multimodal_models
+# cluster_multi-dimensional_modeling_method
 ![Example Image](./TOC.png)
-Multimodal modeling based on molecular structure and the relationship between the drug and the disease onset, further explored by disease gene clustering combined with KNN-GCN (K-Nearest Neighbors-Graph Convolutional Network) classifying drugs, was applied to predict drug-induced intrahepatic cholestasis (DIIC) as one main aspect of hepatotoxicity.  
+Multi-dimensional modeling based on molecular structure and the relationship between the drug and the disease onset, further explored by disease gene clustering combined with KNN-GCN (K-Nearest Neighbors-Graph Convolutional Network) classifying drugs, was applied to predict drug-induced intrahepatic cholestasis (DIIC) as one main aspect of hepatotoxicity.  
 
 ## Descriptions of the files
 - louvain_cluster: identifying gene clusters by louvain algorithm, input file is ‘disease_gene_network.txt’.
